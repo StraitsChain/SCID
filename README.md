@@ -83,8 +83,8 @@ Result new(CreateDocument doc)
 SCID Service Method
 
 ```
-Result get((String scid))
-Result get((String scIndex))
+Result get(String scid)
+Result get(String scIndex)
 ```
 
 ### **Update**
@@ -92,7 +92,7 @@ Result get((String scIndex))
 SCID Service Method
 
 ```
-Result update((String scid, UpdateDoc doc))
+Result update(String scid, UpdateDoc doc)
 ```
 
 ### **Delete (Deactivate)**
@@ -106,7 +106,7 @@ function deactivateID(string calldata did, bytes calldata singer) external;
 SCID Service Method
 
 ```
-Result deactivate((String scid))
+Result deactivate(String scid)
 ```
 
 ## **Security Considerations**
