@@ -44,8 +44,9 @@ did:scid:6GFxvNrooGoh2te8kukKYWuyu4UqqMn5TuN9DuWGxjkz2FatSJCcjb28pAZnx3Y
    },
    "publicKeys":[  
       {  
-         "id":"did:scid:5HDx7jPsiED6n47eNfERrBBRHZb59jVW6UMZZMTSBpikzvhX#owner",
-         "type":"Secp256k1VerificationKey2018"
+         "id":"did:scid:6GFxvNrooGoh2te8kukKYWuyu4UqqMn5TuN9DuWGxjkz2FatSJCcjb28pAZnx3Y#key-1",
+         "type":"Secp256k1VerificationKey2018",
+         "controller":["did:scid:6GFxvNrooGoh2te8kukKYWuyu4UqqMn5TuN9DuWGxjkz2FatSJCcjb28pAZnx3Y"],
       }
    ],
    "authentication":[
@@ -54,6 +55,7 @@ did:scid:6GFxvNrooGoh2te8kukKYWuyu4UqqMn5TuN9DuWGxjkz2FatSJCcjb28pAZnx3Y
          "publicKey":"did:scid:6GFxvNrooGoh2te8kukKYWuyu4UqqMn5TuN9DuWGxjkz2FatSJCcjb28pAZnx3Y#owner",
       }
    ],
+   "controller":[],
    "updated":"2022-03-03T06:41:39.723Z"
 }
 ```
